@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  Arial, sans-serif;
+    background-color: #fddefd;
+    color: #333;
+    line-height: 1.8;    
+     padding: 20px;
+
+}
+p {
+    text-indent: 50px;
+}
+li::marker {
+    color: #811616;
+    
+}
+
+.container {
+    background: #fcfafa;
+    max-width: 750px;
+    border-radius: 15px;
+    margin: 40px auto;
+    padding: 35px;
+    box-shadow: 0px 6px 20px (0, 0, 0, 0, 00);
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #2e2b27;
+    margin-bottom: 15px;
+
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 25px 0 12px;
+    color: #7a4624;
+    padding: auto;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #7b1e1e;
+    margin-bottom: 10px;
+
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: #7b1e1e;
+    margin-bottom: 10px;
+
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+
+}
+
+ul,
+ol {
+    margin: 0 0 10px 22px;
+}
+
+li {
+    margin-bottom: 0px;
+}
+
+.second-container {
+    background: lightpink;
+    border-radius: 8px;
+    margin: 25px 0;
+    padding: 18px;
+    width: 300px;
+}
+
+.second-container h3 {
+    margin-bottom: 10px;
+
+}
+
+hr {
+    margin: 20px 0;
+    border: 0;
+    height: 1px;
+    background: #e0dcdc;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+
+}
+
+table,
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+table th {
+    font-weight: bold;
+    color: #444;
+
+
+}
+
+.color {
+    font-weight: bold;
+    color: #ed775a;
+}
+
+
+.the-footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 45;
+    padding: 25px 10px;
+    border-top: 1px solid #e0dcdc;
+
+}
+
+.the-footer a {
+    color: #468a9a;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.the-footer a:active {
+    color: #356774;
+
+}
+
+.the-footer a:active {
+    text-decoration: underline;
+}
+
